@@ -17,12 +17,14 @@ namespace Casting
 
         static void first()
         {
-            String a = "1";
+            String[] args;   
+            int a = 1;
             int b = 2;
             int c = 3;
-            double d = 4;
-            float e = 5;
-
+            int d = 4;
+            int e = 5;
+            int sum = a + b + c + d + e;
+            Console.WriteLine(sum);
             //fixme - should be 15 :|
             //int sum = a + b + c + d + e;
             //Console.WriteLine(sum);
