@@ -10,16 +10,19 @@ namespace Exercise5
     {
         static void Main(string[] args)
         {
-            string EnglishIII, Precalculus, MusicTheory, Biotechnology, PrinciplesOfTechnologyI, LatinII, ApUsHistory, BusinessComputerInfomationSystems;
+            string[] classes = { 
+                "English III | Ms. Lapan",
+                "Precalculus | Mrs. Gideon", 
+                "Music Theory | Mr. Davis", 
+                "Biotechnology | Ms. Palmer", 
+                "Principles of Technology I | Ms. Garcia ",
+                "Latin II | Mrs. Barnett ",
+                "AP US History | Ms. Johannessen",
+                "Business Computer Infomation Systems | Mr. James"};
+            for (int i = 0; i < classes.Length; i++)
 
-            EnglishIII =
-            Precalculus =
-            MusicTheory =
-            Biotechnology =
-            PrinciplesOfTechnologyI =
-            LatinII =
-            ApUsHistory =
-            BusinessComputerInfomationSystems = 
+                Console.WriteLine(classes[i]);
+            Console.ReadKey();
     }
     }
 }

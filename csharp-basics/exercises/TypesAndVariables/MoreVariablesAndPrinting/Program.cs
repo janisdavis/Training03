@@ -13,8 +13,8 @@ namespace MoreVariablesAndPrinting
                 
             Name = "Zed A. Shaw";
             Age = 35;
-            Height = Math.Round((74*2.54), 2);  // inches
-            Weight = Math.Round((180 * 0.453592), 2); // lbs
+            Height = Math.Round((74*2.54), 2);  // inches to cm//
+            Weight = Math.Round((180 * 0.453592), 2); // lbs to kg//
             Eyes = "Blue";
             Teeth = "White";
             Hair = "Brown";
